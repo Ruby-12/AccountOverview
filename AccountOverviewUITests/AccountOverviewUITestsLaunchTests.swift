@@ -1,10 +1,3 @@
-//
-//  AccountOverviewUITestsLaunchTests.swift
-//  AccountOverviewUITests
-//
-//  Created by Kamal Sahu on 10/02/23.
-//
-
 import XCTest
 
 final class AccountOverviewUITestsLaunchTests: XCTestCase {

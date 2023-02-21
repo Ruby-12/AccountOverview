@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8215B703299E29CB00B76130 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B702299E29CB00B76130 /* MainViewController.swift */; };
+		8215B704299E29CB00B76130 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B702299E29CB00B76130 /* MainViewController.swift */; };
+		8215B705299E29CB00B76130 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B702299E29CB00B76130 /* MainViewController.swift */; };
+		8215B707299E31F100B76130 /* AccountActivityTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B706299E31F100B76130 /* AccountActivityTableView.swift */; };
+		8215B708299E31F100B76130 /* AccountActivityTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B706299E31F100B76130 /* AccountActivityTableView.swift */; };
+		8215B709299E31F100B76130 /* AccountActivityTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B706299E31F100B76130 /* AccountActivityTableView.swift */; };
+		8215B70B299E323300B76130 /* AccountActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B70A299E323300B76130 /* AccountActivityViewController.swift */; };
+		8215B70C299E323300B76130 /* AccountActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B70A299E323300B76130 /* AccountActivityViewController.swift */; };
+		8215B70D299E323300B76130 /* AccountActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B70A299E323300B76130 /* AccountActivityViewController.swift */; };
+		8215B70F299E3AD600B76130 /* AccountTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B70E299E3AD600B76130 /* AccountTransactionCell.swift */; };
+		8215B710299E3AD600B76130 /* AccountTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B70E299E3AD600B76130 /* AccountTransactionCell.swift */; };
+		8215B711299E3AD600B76130 /* AccountTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B70E299E3AD600B76130 /* AccountTransactionCell.swift */; };
 		82611F5029967C5800344828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F4F29967C5800344828 /* AppDelegate.swift */; };
-		82611F5229967C5800344828 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F5129967C5800344828 /* SceneDelegate.swift */; };
-		82611F5429967C5800344828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F5329967C5800344828 /* ViewController.swift */; };
-		82611F5729967C5800344828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82611F5529967C5800344828 /* Main.storyboard */; };
+		82611F5429967C5800344828 /* AccountOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F5329967C5800344828 /* AccountOverviewViewController.swift */; };
 		82611F5A29967C5800344828 /* AccountOverview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82611F5829967C5800344828 /* AccountOverview.xcdatamodeld */; };
 		82611F5C29967C5A00344828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82611F5B29967C5A00344828 /* Assets.xcassets */; };
 		82611F5F29967C5A00344828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82611F5D29967C5A00344828 /* LaunchScreen.storyboard */; };
 		82611F6A29967C5A00344828 /* AccountOverviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F6929967C5A00344828 /* AccountOverviewTests.swift */; };
 		82611F7429967C5A00344828 /* AccountOverviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F7329967C5A00344828 /* AccountOverviewUITests.swift */; };
 		82611F7629967C5A00344828 /* AccountOverviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F7529967C5A00344828 /* AccountOverviewUITestsLaunchTests.swift */; };
+		82611F8329967D8800344828 /* SavingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F8229967D8800344828 /* SavingView.swift */; };
+		82611F872997A85500344828 /* AccountDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F862997A85500344828 /* AccountDataView.swift */; };
+		82611F8C2998C07100344828 /* ViewTransactions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F8B2998C07100344828 /* ViewTransactions .swift */; };
+		82611F8E2998D72400344828 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F8D2998D72400344828 /* CustomButton.swift */; };
+		82E0C6D02998EDF200F1A955 /* TransferMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E0C6CF2998EDF200F1A955 /* TransferMoneyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8215B702299E29CB00B76130 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8215B706299E31F100B76130 /* AccountActivityTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountActivityTableView.swift; sourceTree = "<group>"; };
+		8215B70A299E323300B76130 /* AccountActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountActivityViewController.swift; sourceTree = "<group>"; };
+		8215B70E299E3AD600B76130 /* AccountTransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTransactionCell.swift; sourceTree = "<group>"; };
 		82611F4C29967C5800344828 /* AccountOverview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountOverview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82611F4F29967C5800344828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82611F5129967C5800344828 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		82611F5329967C5800344828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		82611F5629967C5800344828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82611F5329967C5800344828 /* AccountOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOverviewViewController.swift; sourceTree = "<group>"; };
 		82611F5929967C5800344828 /* AccountOverview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccountOverview.xcdatamodel; sourceTree = "<group>"; };
 		82611F5B29967C5A00344828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82611F5E29967C5A00344828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,11 @@
 		82611F6F29967C5A00344828 /* AccountOverviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountOverviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82611F7329967C5A00344828 /* AccountOverviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOverviewUITests.swift; sourceTree = "<group>"; };
 		82611F7529967C5A00344828 /* AccountOverviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOverviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82611F8229967D8800344828 /* SavingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingView.swift; sourceTree = "<group>"; };
+		82611F862997A85500344828 /* AccountDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDataView.swift; sourceTree = "<group>"; };
+		82611F8B2998C07100344828 /* ViewTransactions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewTransactions .swift"; sourceTree = "<group>"; };
+		82611F8D2998D72400344828 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		82E0C6CF2998EDF200F1A955 /* TransferMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +123,9 @@
 		82611F4E29967C5800344828 /* AccountOverview */ = {
 			isa = PBXGroup;
 			children = (
+				82611F882997ADDF00344828 /* View */,
+				82611F8A2997AE0000344828 /* Controller */,
 				82611F4F29967C5800344828 /* AppDelegate.swift */,
-				82611F5129967C5800344828 /* SceneDelegate.swift */,
-				82611F5329967C5800344828 /* ViewController.swift */,
-				82611F5529967C5800344828 /* Main.storyboard */,
 				82611F5B29967C5A00344828 /* Assets.xcassets */,
 				82611F5D29967C5A00344828 /* LaunchScreen.storyboard */,
 				82611F6029967C5A00344828 /* Info.plist */,
@@ -128,6 +149,30 @@
 				82611F7529967C5A00344828 /* AccountOverviewUITestsLaunchTests.swift */,
 			);
 			path = AccountOverviewUITests;
+			sourceTree = "<group>";
+		};
+		82611F882997ADDF00344828 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82611F8B2998C07100344828 /* ViewTransactions .swift */,
+				82611F862997A85500344828 /* AccountDataView.swift */,
+				82611F8229967D8800344828 /* SavingView.swift */,
+				82611F8D2998D72400344828 /* CustomButton.swift */,
+				82E0C6CF2998EDF200F1A955 /* TransferMoneyView.swift */,
+				8215B70E299E3AD600B76130 /* AccountTransactionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82611F8A2997AE0000344828 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8215B702299E29CB00B76130 /* MainViewController.swift */,
+				82611F5329967C5800344828 /* AccountOverviewViewController.swift */,
+				8215B70A299E323300B76130 /* AccountActivityViewController.swift */,
+				8215B706299E31F100B76130 /* AccountActivityTableView.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +281,6 @@
 			files = (
 				82611F5F29967C5A00344828 /* LaunchScreen.storyboard in Resources */,
 				82611F5C29967C5A00344828 /* Assets.xcassets in Resources */,
-				82611F5729967C5800344828 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +306,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				82611F5A29967C5800344828 /* AccountOverview.xcdatamodeld in Sources */,
-				82611F5429967C5800344828 /* ViewController.swift in Sources */,
+				82611F5429967C5800344828 /* AccountOverviewViewController.swift in Sources */,
+				8215B70F299E3AD600B76130 /* AccountTransactionCell.swift in Sources */,
+				8215B70B299E323300B76130 /* AccountActivityViewController.swift in Sources */,
+				82E0C6D02998EDF200F1A955 /* TransferMoneyView.swift in Sources */,
+				8215B707299E31F100B76130 /* AccountActivityTableView.swift in Sources */,
+				82611F8C2998C07100344828 /* ViewTransactions .swift in Sources */,
+				82611F8329967D8800344828 /* SavingView.swift in Sources */,
+				82611F8E2998D72400344828 /* CustomButton.swift in Sources */,
+				8215B703299E29CB00B76130 /* MainViewController.swift in Sources */,
+				82611F872997A85500344828 /* AccountDataView.swift in Sources */,
 				82611F5029967C5800344828 /* AppDelegate.swift in Sources */,
-				82611F5229967C5800344828 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				82611F6A29967C5A00344828 /* AccountOverviewTests.swift in Sources */,
+				8215B708299E31F100B76130 /* AccountActivityTableView.swift in Sources */,
+				8215B704299E29CB00B76130 /* MainViewController.swift in Sources */,
+				8215B710299E3AD600B76130 /* AccountTransactionCell.swift in Sources */,
+				8215B70C299E323300B76130 /* AccountActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +336,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8215B705299E29CB00B76130 /* MainViewController.swift in Sources */,
 				82611F7429967C5A00344828 /* AccountOverviewUITests.swift in Sources */,
+				8215B711299E3AD600B76130 /* AccountTransactionCell.swift in Sources */,
 				82611F7629967C5A00344828 /* AccountOverviewUITestsLaunchTests.swift in Sources */,
+				8215B70D299E323300B76130 /* AccountActivityViewController.swift in Sources */,
+				8215B709299E31F100B76130 /* AccountActivityTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +361,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		82611F5529967C5800344828 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82611F5629967C5800344828 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		82611F5D29967C5A00344828 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,7 +497,6 @@
 				INFOPLIST_FILE = AccountOverview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +523,6 @@
 				INFOPLIST_FILE = AccountOverview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
