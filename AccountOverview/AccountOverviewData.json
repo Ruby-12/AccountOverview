@@ -1,0 +1,12 @@
+[
+    {
+        "account_holder_name": "Rahul Kumar",
+        "mmid": "9485321",
+        "nominee" : "Yes",
+        "ifsc" : "KKBK0000825",
+        "status" : "Active",
+        "effective_available_balance": "39081.02",
+        "available_balance" : "39081.02",
+        "uncleared" : "0.00"
+    }
+]

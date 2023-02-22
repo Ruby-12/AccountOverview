@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		179F584529A68C7F00B37466 /* AccountOverviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F584429A68C7F00B37466 /* AccountOverviewModel.swift */; };
+		179F584929A68DE500B37466 /* AccountOverviewData.json in Resources */ = {isa = PBXBuildFile; fileRef = 179F584829A68DE500B37466 /* AccountOverviewData.json */; };
+		179F584B29A68E0D00B37466 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F584A29A68E0D00B37466 /* Api.swift */; };
+		179F584E29A6922100B37466 /* AccountActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F584D29A6922100B37466 /* AccountActivityModel.swift */; };
+		179F585029A69A1E00B37466 /* AccountActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = 179F584F29A69A1E00B37466 /* AccountActivityData.json */; };
 		8215B703299E29CB00B76130 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B702299E29CB00B76130 /* MainViewController.swift */; };
 		8215B704299E29CB00B76130 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B702299E29CB00B76130 /* MainViewController.swift */; };
 		8215B705299E29CB00B76130 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8215B702299E29CB00B76130 /* MainViewController.swift */; };
@@ -52,6 +57,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		179F584429A68C7F00B37466 /* AccountOverviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOverviewModel.swift; sourceTree = "<group>"; };
+		179F584829A68DE500B37466 /* AccountOverviewData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AccountOverviewData.json; sourceTree = "<group>"; };
+		179F584A29A68E0D00B37466 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		179F584D29A6922100B37466 /* AccountActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountActivityModel.swift; sourceTree = "<group>"; };
+		179F584F29A69A1E00B37466 /* AccountActivityData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AccountActivityData.json; sourceTree = "<group>"; };
 		8215B702299E29CB00B76130 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8215B706299E31F100B76130 /* AccountActivityTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountActivityTableView.swift; sourceTree = "<group>"; };
 		8215B70A299E323300B76130 /* AccountActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountActivityViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +140,11 @@
 				82611F5D29967C5A00344828 /* LaunchScreen.storyboard */,
 				82611F6029967C5A00344828 /* Info.plist */,
 				82611F5829967C5800344828 /* AccountOverview.xcdatamodeld */,
+				179F584829A68DE500B37466 /* AccountOverviewData.json */,
+				179F584429A68C7F00B37466 /* AccountOverviewModel.swift */,
+				179F584D29A6922100B37466 /* AccountActivityModel.swift */,
+				179F584A29A68E0D00B37466 /* Api.swift */,
+				179F584F29A69A1E00B37466 /* AccountActivityData.json */,
 			);
 			path = AccountOverview;
 			sourceTree = "<group>";
@@ -279,7 +294,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179F585029A69A1E00B37466 /* AccountActivityData.json in Resources */,
 				82611F5F29967C5A00344828 /* LaunchScreen.storyboard in Resources */,
+				179F584929A68DE500B37466 /* AccountOverviewData.json in Resources */,
 				82611F5C29967C5A00344828 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,11 +328,14 @@
 				8215B70B299E323300B76130 /* AccountActivityViewController.swift in Sources */,
 				82E0C6D02998EDF200F1A955 /* TransferMoneyView.swift in Sources */,
 				8215B707299E31F100B76130 /* AccountActivityTableView.swift in Sources */,
+				179F584E29A6922100B37466 /* AccountActivityModel.swift in Sources */,
 				82611F8C2998C07100344828 /* ViewTransactions .swift in Sources */,
+				179F584529A68C7F00B37466 /* AccountOverviewModel.swift in Sources */,
 				82611F8329967D8800344828 /* SavingView.swift in Sources */,
 				82611F8E2998D72400344828 /* CustomButton.swift in Sources */,
 				8215B703299E29CB00B76130 /* MainViewController.swift in Sources */,
 				82611F872997A85500344828 /* AccountDataView.swift in Sources */,
+				179F584B29A68E0D00B37466 /* Api.swift in Sources */,
 				82611F5029967C5800344828 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

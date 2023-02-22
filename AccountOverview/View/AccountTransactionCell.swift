@@ -43,7 +43,6 @@ class AccountTransactionCell: UITableViewCell
         
         transactionDate.textColor = .white
         transactionDate.translatesAutoresizingMaskIntoConstraints = false
-        transactionDate.text = "06\nFeb '23"
         transactionDate.numberOfLines = 0
         transactionDate.textAlignment = .center
         transactionDate.font = UIFont.systemFont(ofSize: 12)
@@ -53,7 +52,6 @@ class AccountTransactionCell: UITableViewCell
         stackView1.spacing = 5
         
         repeatImageLabel.textColor = .red
-        repeatImageLabel.text = "- 884.00"
         repeatImageLabel.font = UIFont.systemFont(ofSize: 15)
         
         stackView2.translatesAutoresizingMaskIntoConstraints = false
@@ -62,6 +60,8 @@ class AccountTransactionCell: UITableViewCell
         
         amountLabel.translatesAutoresizingMaskIntoConstraints = false
         amountLabel.font = UIFont.systemFont(ofSize: 15)
+        amountLabel.lineBreakMode = .byCharWrapping
+        amountLabel.widthAnchor.constraint(equalToConstant: 200).isActive = true
         
         
         recipientName.textColor = .gray
@@ -80,7 +80,7 @@ class AccountTransactionCell: UITableViewCell
             transactionDateView.heightAnchor.constraint(equalToConstant: 50),
             transactionDateView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
             transactionDateView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 5),
-            contentView.trailingAnchor.constraint(equalTo: stackView1.trailingAnchor, constant: 1),
+            contentView.trailingAnchor.constraint(equalTo: stackView1.trailingAnchor, constant: 0),
             stackView1.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
             stackView2.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
             stackView2.leadingAnchor.constraint(equalToSystemSpacingAfter: transactionDateView.trailingAnchor, multiplier: 0.5)

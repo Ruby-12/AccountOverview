@@ -130,6 +130,8 @@ class AccountDataView: UIView {
         return view
     }()
     
+    private var data = AccountApi().getAccountOverviewData()
+    
     
 }
 extension AccountDataView
@@ -143,12 +145,12 @@ extension AccountDataView
         effAvailBalnc.font = UIFont.systemFont(ofSize: 16)
         
         balance.translatesAutoresizingMaskIntoConstraints = false
-        balance.text = "39,081.02"
+        balance.text = data[0].effectiveAvailableBalance
         balance.textColor = .blue
         balance.font = UIFont.systemFont(ofSize: 15, weight: .heavy)
         
         active.translatesAutoresizingMaskIntoConstraints = false
-        active.text = "Active"
+        active.text = data[0].status
         active.textColor = .systemGreen
         active.font = UIFont.systemFont(ofSize: 15)
         
@@ -166,14 +168,14 @@ extension AccountDataView
         unClearLabel.font = UIFont.systemFont(ofSize: 16)
         
         unclerAmt.translatesAutoresizingMaskIntoConstraints = false
-        unclerAmt.text = "0.00"
+        unclerAmt.text = data[0].uncleared
         unclerAmt.textColor = .systemRed
         unclerAmt.font = UIFont.systemFont(ofSize: 15, weight: .heavy)
         
         balance2.translatesAutoresizingMaskIntoConstraints = false
-        balance2.text = "39,081.02"
+        balance2.text = data[0].availableBalance
         balance2.textColor = .systemGreen
-        balance2.font = UIFont.systemFont(ofSize: 15)
+        balance2.font = UIFont.systemFont(ofSize: 15, weight: .heavy)
         
         divider1.translatesAutoresizingMaskIntoConstraints = false
         divider1.backgroundColor = .gray
@@ -184,7 +186,7 @@ extension AccountDataView
         mmid.font = UIFont.systemFont(ofSize: 16)
         
         mmidNum.translatesAutoresizingMaskIntoConstraints = false
-        mmidNum.text = "48926462"
+        mmidNum.text = data[0].mmid
         mmidNum.font = UIFont.systemFont(ofSize: 16)
         
         accName.translatesAutoresizingMaskIntoConstraints = false
@@ -193,7 +195,7 @@ extension AccountDataView
         accName.font = UIFont.systemFont(ofSize: 15)
         
         name.translatesAutoresizingMaskIntoConstraints = false
-        name.text = "Rahul Kumar"
+        name.text = data[0].accountHolderName
         name.font = UIFont.systemFont(ofSize: 15)
         
         divider2.translatesAutoresizingMaskIntoConstraints = false
@@ -205,7 +207,7 @@ extension AccountDataView
         nominee.font = UIFont.systemFont(ofSize: 16)
         
         nomYN.translatesAutoresizingMaskIntoConstraints = false
-        nomYN.text = "Yes"
+        nomYN.text = data[0].nominee
         nomYN.font = UIFont.systemFont(ofSize: 16)
         
         ifsc.translatesAutoresizingMaskIntoConstraints = false
@@ -214,7 +216,7 @@ extension AccountDataView
         ifsc.font = UIFont.systemFont(ofSize: 15)
         
         ifscNum.translatesAutoresizingMaskIntoConstraints = false
-        ifscNum.text = "KKBK0000825"
+        ifscNum.text = data[0].ifsc
         ifscNum.font = UIFont.systemFont(ofSize: 15)
         
         divider3.translatesAutoresizingMaskIntoConstraints = false

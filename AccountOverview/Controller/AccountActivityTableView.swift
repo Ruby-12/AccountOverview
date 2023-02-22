@@ -6,6 +6,8 @@ class AccountActivityTableView: UIViewController {
     
     private let tableView = UITableView(frame: CGRect(), style: .plain)
     
+    private var data = AccountApi().getAccountActivityData()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         changeStatusBarColor()
@@ -18,15 +20,17 @@ class AccountActivityTableView: UIViewController {
 }
 extension AccountActivityTableView: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! AccountTransactionCell
         
-        cell.amountLabel.text = "UPI/MICROSCAN INFOC/\n303730082979/Upi Transaction"
+        cell.amountLabel.text = data[indexPath.row].description
         cell.amountLabel.numberOfLines = 0
-        cell.recipientName.text = "Chq/Ref No.: UPI-303787105744"
+        cell.repeatImageLabel.text = data[indexPath.row].amount
+        cell.recipientName.text = "Chq/Ref No.: UPI-\(data[indexPath.row].referenceNumber)"
+        cell.transactionDate.text = data[indexPath.row].date
         cell.backgroundColor = UIColor(red: 234/255, green: 235/255, blue: 237/255, alpha: 1)
         return cell
     }
