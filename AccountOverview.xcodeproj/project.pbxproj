@@ -34,9 +34,8 @@
 		82611F7629967C5A00344828 /* AccountOverviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F7529967C5A00344828 /* AccountOverviewUITestsLaunchTests.swift */; };
 		82611F8329967D8800344828 /* SavingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F8229967D8800344828 /* SavingView.swift */; };
 		82611F872997A85500344828 /* AccountDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F862997A85500344828 /* AccountDataView.swift */; };
-		82611F8C2998C07100344828 /* ViewTransactions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F8B2998C07100344828 /* ViewTransactions .swift */; };
 		82611F8E2998D72400344828 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82611F8D2998D72400344828 /* CustomButton.swift */; };
-		82E0C6D02998EDF200F1A955 /* TransferMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E0C6CF2998EDF200F1A955 /* TransferMoneyView.swift */; };
+		8267812429ACA3860004DDD0 /* TransferMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8267812329ACA3860004DDD0 /* TransferMoneyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,9 +79,8 @@
 		82611F7529967C5A00344828 /* AccountOverviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOverviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		82611F8229967D8800344828 /* SavingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingView.swift; sourceTree = "<group>"; };
 		82611F862997A85500344828 /* AccountDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDataView.swift; sourceTree = "<group>"; };
-		82611F8B2998C07100344828 /* ViewTransactions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewTransactions .swift"; sourceTree = "<group>"; };
 		82611F8D2998D72400344828 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		82E0C6CF2998EDF200F1A955 /* TransferMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyView.swift; sourceTree = "<group>"; };
+		8267812329ACA3860004DDD0 /* TransferMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,12 +167,11 @@
 		82611F882997ADDF00344828 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				82611F8B2998C07100344828 /* ViewTransactions .swift */,
 				82611F862997A85500344828 /* AccountDataView.swift */,
 				82611F8229967D8800344828 /* SavingView.swift */,
 				82611F8D2998D72400344828 /* CustomButton.swift */,
-				82E0C6CF2998EDF200F1A955 /* TransferMoneyView.swift */,
 				8215B70E299E3AD600B76130 /* AccountTransactionCell.swift */,
+				8267812329ACA3860004DDD0 /* TransferMoneyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,10 +323,9 @@
 				82611F5429967C5800344828 /* AccountOverviewViewController.swift in Sources */,
 				8215B70F299E3AD600B76130 /* AccountTransactionCell.swift in Sources */,
 				8215B70B299E323300B76130 /* AccountActivityViewController.swift in Sources */,
-				82E0C6D02998EDF200F1A955 /* TransferMoneyView.swift in Sources */,
+				8267812429ACA3860004DDD0 /* TransferMoneyView.swift in Sources */,
 				8215B707299E31F100B76130 /* AccountActivityTableView.swift in Sources */,
 				179F584E29A6922100B37466 /* AccountActivityModel.swift in Sources */,
-				82611F8C2998C07100344828 /* ViewTransactions .swift in Sources */,
 				179F584529A68C7F00B37466 /* AccountOverviewModel.swift in Sources */,
 				82611F8329967D8800344828 /* SavingView.swift in Sources */,
 				82611F8E2998D72400344828 /* CustomButton.swift in Sources */,

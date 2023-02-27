@@ -15,9 +15,9 @@ class AccountOverviewViewController: UIViewController, UIScrollViewDelegate{
         return button
     }()
     
-    let label = UILabel()
+    
+    let textLabel = UILabel()
     let editButton = UIButton()
-    // let editImg = UIImage()
     
     lazy var stack: UIStackView = {
         let view = UIStackView(arrangedSubviews: [buttonOne, buttonTwo])
@@ -29,7 +29,7 @@ class AccountOverviewViewController: UIViewController, UIScrollViewDelegate{
     }()
     
     lazy var LabelstackView: UIStackView = {
-        let view = UIStackView(arrangedSubviews: [label, editButton])
+        let view = UIStackView(arrangedSubviews: [textLabel, editButton])
         view.axis = .horizontal
         view.spacing = 70
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -76,11 +76,11 @@ extension AccountOverviewViewController
         buttonOne.addTarget(self, action: #selector(goToTransactionScreen), for: .touchUpInside)
         buttonTwo.addTarget(self, action: #selector(goToNextScreen), for: .touchUpInside)
         
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Your Siri Shortcut is:\nCheck my Kotak\nBank Balance"
-        label.textColor = .gray
-        label.font = UIFont.systemFont(ofSize: 14)
-        label.numberOfLines = 0
+        textLabel.translatesAutoresizingMaskIntoConstraints = false
+        textLabel.text = "Your Siri Shortcut is:\nCheck my Kotak\nBank Balance"
+        textLabel.textColor = .gray
+        textLabel.font = UIFont.systemFont(ofSize: 14)
+        textLabel.numberOfLines = 0
         
         editButton.translatesAutoresizingMaskIntoConstraints = false
         editButton.setTitle("Edit", for: .normal)

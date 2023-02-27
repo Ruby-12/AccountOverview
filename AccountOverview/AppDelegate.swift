@@ -13,7 +13,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.backgroundColor = .secondarySystemBackground
         window?.rootViewController = UINavigationController(rootViewController: MainViewController())
-        
         return true
     }
 }

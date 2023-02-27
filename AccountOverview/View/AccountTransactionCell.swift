@@ -3,28 +3,15 @@ import UIKit
 
 class AccountTransactionCell: UITableViewCell
 {
-//    enum TransactionType {
-//        case credit, debit
-//    }
-//
     var transactionDate = UILabel()
     var stackView1 = UIStackView()
-    //var repeatImage = UIImageView()
-    var repeatImageLabel = UILabel()
-    var stackView2 = UIStackView()
     var amountLabel = UILabel()
+    var stackView2 = UIStackView()
+    var descriptionTrans = UILabel()
     var recipientName = UILabel()
+    //var transactionType = UILabel()
     
-//    var transactionType: TransactionType! {
-//        didSet {
-//            if transactionType == .credit {
-//                amountLabel.textColor = .blue
-//            }
-//            else {
-//                amountLabel.textColor = .red
-//            }
-//        }
-//    }
+    
     
     lazy var transactionDateView: UIStackView = {
         let view = UIStackView(arrangedSubviews: [transactionDate])
@@ -51,17 +38,17 @@ class AccountTransactionCell: UITableViewCell
         stackView1.axis = .vertical
         stackView1.spacing = 5
         
-        repeatImageLabel.textColor = .red
-        repeatImageLabel.font = UIFont.systemFont(ofSize: 15)
+        amountLabel.textColor = .red
+        amountLabel.font = UIFont.systemFont(ofSize: 15)
         
         stackView2.translatesAutoresizingMaskIntoConstraints = false
         stackView2.axis = .vertical
         stackView2.spacing = 5
         
-        amountLabel.translatesAutoresizingMaskIntoConstraints = false
-        amountLabel.font = UIFont.systemFont(ofSize: 15)
-        amountLabel.lineBreakMode = .byCharWrapping
-        amountLabel.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        descriptionTrans.translatesAutoresizingMaskIntoConstraints = false
+        descriptionTrans.font = UIFont.systemFont(ofSize: 15)
+        descriptionTrans.lineBreakMode = .byCharWrapping
+        descriptionTrans.widthAnchor.constraint(equalToConstant: 200).isActive = true
         
         
         recipientName.textColor = .gray
@@ -69,9 +56,9 @@ class AccountTransactionCell: UITableViewCell
         recipientName.font = UIFont.systemFont(ofSize: 14)
         
         contentView.addSubview(transactionDateView)
-        stackView1.addArrangedSubview(repeatImageLabel)
+        stackView1.addArrangedSubview(amountLabel)
         contentView.addSubview(stackView1)
-        stackView2.addArrangedSubview(amountLabel)
+        stackView2.addArrangedSubview(descriptionTrans)
         stackView2.addArrangedSubview(recipientName)
         contentView.addSubview(stackView2)
         
